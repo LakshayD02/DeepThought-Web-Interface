@@ -1,0 +1,620 @@
+/* CSS */
+/* CSS reset */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content : space-between;
+    align-items: center;
+    background-color: #F0F0F0;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+#logo {
+    width: 311px;
+    height: 49px;
+    margin-left: 10%;
+    background-image: url("https://deepthought.education/assets/images/logo/logo.svg");
+    background-size: cover;
+}
+
+.nav-content{
+    display: flex;
+    margin-right: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-content li {
+    list-style-type: none;
+}
+
+.nav-content li a {
+    text-decoration: none;
+}
+
+.nav-icons {
+    width: 37px;
+    height: 37px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: #3683F0;
+}
+
+/* Navbar Icons */
+
+#home {
+    padding: 6px 7px;
+}
+
+#tool {
+    padding: 7px 9px;
+}
+
+#profile-photo{
+    background-image: url("photo.png");
+    background-size: cover;
+}
+
+#notification {
+   padding: 7px 10px;
+}
+
+#menu {
+    padding: 8px 13px;
+    background-color: #F0F0F0;
+}
+
+/* main */
+
+main {
+    margin: 20px 15% 15% 10%;
+}
+
+/* Submit task section */
+
+.submit-task {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit-task button {
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 9px 24px;
+    border: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #0029FF;
+}
+
+.task-text {
+    color: #0029FF;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Explore section */
+
+.explore {
+    width: 100%;
+    height: 135px;
+    padding: 27px 25px;
+    margin: 50px 0;
+    border-radius: 5px;
+    background-color: #E9ECEF;
+}
+
+.explore h3 {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/* Feature Section */
+
+.feature {
+    display: grid;
+    row-gap: 40px;
+    padding: 0 20px;
+    background-color: #FDFDFD;
+    grid-auto-columns: minmax(100px,480px);
+    grid-template-columns:repeat(auto-fill, minmax(480px, 1fr));
+}
+
+.feature-content {
+    width: 480px;
+    height: 580px;
+    border-radius: 15px;
+    box-shadow:  0px -4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #FDFDFD;
+}
+
+.feature-head {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px 15px 0 0;
+    background-color: #000000;
+}
+
+.feature-head p {
+    width: 430px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.info {
+    height: 22px;
+    width: 22px;
+    padding: 1px 9px;
+    font-family: 'Poly', serif;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    border: transparent;
+    cursor: pointer;
+}
+
+.description {
+    position: relative;
+    top: 15px;
+    left: 20px;
+    width: 90%;
+    font-size: 13px;
+    margin: 10px 0px 40px 0px;
+}
+
+.description p span{
+    font-weight: bold;    
+    font-size: 15px;
+}
+
+/* First box */
+
+.feature-video {
+    width: 100%;
+}
+
+.feature-video img{
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Second box */
+
+.thread-content {
+    padding: 6%;
+    border-top: 1px solid #D1CECE;
+
+}
+
+.thred-head {
+    height: 40px;
+    display: flex;
+    padding-left: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 0.1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.thread-head-text {
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sub-thread {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 200px 200px;
+}
+
+.thread-box-1 {
+    height: 50px;
+    padding: 5px;
+    color: #333333;
+    background-color: #f4f6f9   ;
+    border-radius: 10px;
+    border-bottom: transparent;
+    box-shadow: 0px 0px 0.5px 0.5px rgba(0, 0, 0, 0.25);
+}
+
+.thread-box-2 {
+    height: 75px;
+    padding: 10px;
+    background-color: #FDFDFD;
+    position: relative;
+    top: -20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.25);
+}
+
+.thread-box-2 input {
+    border: transparent;
+    background-color: transparent;
+}
+
+.thread-list-icons {
+    list-style-type: none;
+}
+
+.thread-list-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -15px;
+}
+
+.thread-items {
+    display: inline;
+}
+
+.icon-1 {
+    margin-right: 10px;
+}
+
+.icon-4 {
+    margin: 0px 5px;    
+}
+
+.icon-position {
+    position: relative;
+    top: -2px;
+    left: -15px;
+}
+
+.thread-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.thread-options {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    margin-top: -20px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.thread-options p{
+    padding: 5px;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.thread-options i {
+    margin: 4px;
+}
+
+.thread-button {
+    height: 36px;
+    width: 105px;
+    padding: 0px 10px;
+    margin: 20px 0px;
+    font-size: 12px;
+    border: transparent;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #0029FF;
+    cursor: pointer;
+}
+
+/* Third Box */
+
+.feature-deatils {
+    padding:  0px 6%;
+    border-radius: 0px 0px 15px 15px;
+    border: 1px solid #D1CECE;
+}
+
+.title-input {
+    border-radius: 5px;
+    box-shadow: -1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.feature-deatils input {
+    width: 100%;
+    height: 43px;
+    background-color: #FCFBFB;  
+    border: transparent;
+}
+
+.content-text-input {
+    border-radius: 5px;
+    height: 166px;
+    border: 1px solid #D1CECE;
+    box-shadow: -1px 0px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.feature-heading {
+    font-weight: 600;
+    font-size: 16px;
+    margin: 20px 0;
+    
+}
+
+.content-text-header {
+    z-index: 2;
+    padding: 20px;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 2px 1px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.header-bar {
+    display: flex;
+}
+
+.header-bar li {
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.header-tool {
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tool-items {
+    list-style: none;
+    padding: 2px;
+    margin: 20px 10px 0px 5px;
+}
+
+.tool-para {
+    width: 80px;
+    font-size: 12px;
+    display: inline-block;
+    color: #616161;
+    background-color: #EBEBEB;
+}
+
+/* Fourth Box */
+
+i {
+    cursor: pointer;
+}
+
+.method {
+    border-top: 1px solid #D1CECE;
+    padding: 0px 6%;
+}
+
+.method-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.method-head {
+    height: 43px;
+    display: flex;
+    align-items: center;
+    background-color: #FCFCFC;
+    border: 1px solid #D9D9D9;
+}
+
+.method-head i {
+    margin: 0px 10px;
+}
+
+.method-part .method-head p {
+    font-weight: 600;
+} 
+
+.head-1 {
+    background-color: #F2F2F2;
+}
+
+.method-part p {
+    margin: 15px 0px;
+    font-size: 14px;
+}
+
+.method-part button {
+    background-color: transparent;
+    color: #616161;
+    margin: 20px 0px 30px;
+    border: transparent;
+    display: inline;
+    text-align: right;
+}
+
+.method-bottom {
+    padding-left: 35px;
+}
+
+.method-bottom p {
+    font-size: 14px;
+    margin: 15px 0px;
+}
+
+.method-bottom .method-head p {
+    font-weight: 600;
+}
+
+.method-bottom .method-head {
+    padding-left: 20px;
+}
+
+/* Notice */
+
+.notice {
+    height: 380px;
+    width: 90px;
+    position: absolute;
+    top: 110px;
+    right: 0px;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 1px 3px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.notice-text {
+    width: 50%;
+    height: 100%;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px 0px 0px 20px;
+    background-color: #000000;
+}
+
+.notice-text i{
+    margin: 30px 0px 0px 0px;
+}
+
+.notice-letter {
+    list-style-type: none;
+}
+
+.notice-letter li {
+    margin: 5px 0px;
+}
+
+/* Bottom instruction buttons */
+
+.instruction {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #0029FF;
+}
+
+.instruction i{
+    cursor: pointer;
+}
+
+.instruction-1 {
+    position: fixed;
+    bottom: 220px;
+    right: 60px;
+}
+
+.instruction-2 {
+    position: fixed;
+    bottom: 120px;
+    right: 60px;
+}
+
+.instruction-2-icon {
+    height: 46px;
+    width: 46px;
+    background-size: cover;
+    background-image: url("team-icon.png");
+    cursor: pointer;
+}
+
+.instruction-3 {
+    position: fixed;
+    bottom: 20px;
+    right: 60px;
+}
+
+.instruction-3-icon {
+    height: 46px;
+    width: 46px;
+    background-size: cover;
+    background-image: url("calender-icon.png");
+    cursor: pointer;
+}
+
+/* Board (top-left) */
+
+.board {
+    width: 390px;
+    height: 90vh;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    z-index: 2;
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 15px 15px 0px;
+    transform: scale(0);
+}
+
+.board.active {
+    transform: scale(1);
+}
+
+.board-head {
+    height: 50px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    border-top-right-radius: 15px;
+}
+
+.board-head i {
+    margin-right: 20px;
+}
+
+.board-list {
+    padding: 20px 0px 0px 40px;
+
+}
+.board-list-items {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.board-list-head {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-left: 0px;
+}
+
+.board-close {
+    width: 130px;
+    height: 90vh;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    z-index: 1;
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 15px 15px 0px;
+}
+
+.board-close button {
+    padding: 4px 25px;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 30px;
+    color: #0029FF;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: 1px solid #0029FF;
+}
