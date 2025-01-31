@@ -1,4 +1,9 @@
 # DeepThought-Interface
-A Simple Non-Responsive Interface of DeepThought Edutech Ventures. Designed Using HTML and CSS
 
-Deployed Link: https://deepthought-interface.netlify.app/
+##  Features:
+
+- <strong>HTML Structure:</strong> Provides a solid foundation for the website's content and organization. 🧱
+
+- <strong>JavaScript Interactivity:</strong> Adds basic functionality and dynamic elements to the interface. ✨
+
+- <strong>Non-Responsive Design:</strong> A classic approach for understanding web development fundamentals. 🕰️
